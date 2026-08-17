@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="controles.js"></script>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Abonnement</legend>
+            <p><label for="Age">Age:</label><input type="radio" name="Age" id="R1">Enfant<input type="radio" name="Age" id="R2">Adult</p>
+            <p><label for="Abonn">Abonnement:</label><input type="radio" name="Abonn" id="Ab1">1 Mois<input type="radio" name="Abonn" id="Ab2">3Mois</p>
+            <p> <label for="ActSport">Activité sportive:</label>
+                <select name="" id="ActSport" >
+                    <option value="choisir">choisir</option>
+                    <option value="Gymnastique">Gymnastique</option>
+                    <option value="Karaté">Karaté</option>
+                </select></p>
+                <p><input type="button" onclick="payer()" value="Calculer"></p>
+                <p><input type="text" name="" id="NetPayer" value="Net à payer:"></p>
+        </fieldset>
+    </form>
+</body>
+</html>

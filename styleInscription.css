@@ -1,0 +1,24 @@
+ body{ background-color: antiquewhite;}
+form{   margin-top: 5%;
+        margin-left: 10%;
+       
+     }
+#fieldset1{ padding: 1%;
+            border-radius: 10% 10% 10% 10%;
+            border:3px solid blue;
+            width: 600px;
+            height: 420px;
+            background-color: palevioletred;
+        }
+#fieldset2{ padding-top: 5%;
+             border-radius: 10% 10% 10% 10%;
+             background-color: pink;
+            height: 360px;
+            }
+legend{ margin-left: 15%;
+        transform: scale(2); }
+label{ width: 200px; float:left}
+.formesaisie{ width: 250px;  border-radius:10% 10% 10% 10%;  border: 3px solid green;}
+
+input[type="button"] ,input[type="reset"] {border-radius:10% 10% 10% 10%;
+        border: 3px solid green;}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="controles.js"></script>
+    <link rel="stylesheet" href="styleInscription.css" />
+  </head>
+  <body>
+    <form action="">
+      <fieldset id="fieldset1">
+        <legend>Inscription</legend>
+        <fieldset id="fieldset2">
+          <p>
+            <label for="CN">CIN:</label>
+            <input
+              type="text"
+              name="CN"
+              id="CN"
+              placeholder="numéro carte CIN"
+              required
+              class="formesaisie"
+            />
+          </p>
+          <p>
+            <label for="PNN">Nom et prenom:</label>
+            <input
+              type="text"
+              name="PNN"
+              id="NP"
+              placeholder="saisir votre nom et prenom"
+              class="formesaisie"
+            /><span id="error1"></span>
+          </p>
+          <p>
+            <label for="tel">Tel:</label
+            ><input type="number" name="tel" id="Tel" class="formesaisie" />
+          </p>
+          <p>
+            <label for="mail">Email:</label
+            ><input type="email" name="mail" id="email" class="formesaisie" />
+            <span id="error4"></span>
+          </p>
+          <p>
+            <label for="pasword">Mot de passe:</label
+            ><input
+              type="password"
+              name="pasword"
+              id="pw"
+              class="formesaisie"
+            />
+            <span id="error5"></span>
+          </p>
+          <p>
+            <label for="confir">Mot de passe:</label
+            ><input
+              type="password"
+              name="confir"
+              id="confirmation"
+              class="formesaisie"
+            />
+            <span id="error6"></span>
+          </p>
+          <p>
+            <label for="ActSport">Activité sportive:</label>
+            <select name="" id="ActSport" class="formesaisie">
+              <option value="choisir">choisir</option>
+              <option value="01">Gymnastique</option>
+              <option value="02">Karaté</option>
+            </select>
+          </p>
+          <br />
+
+          <p>
+            <input type="button" onclick="verif()" value="S'inscrire" />
+            <input type="reset" value="Annuler" />
+          </p>
+        </fieldset>
+      </fieldset>
+    </form>
+  </body>
+</html>
